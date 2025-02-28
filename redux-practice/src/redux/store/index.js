@@ -1,9 +1,9 @@
 import React from 'react'
 import {configureStore} from '@reduxjs/toolkit'
-import counterReducer from '../slices/index'
+import counterReducer from '../slices/index.js'
 
 export default configureStore({
-    reducers : {
+    reducer : {
         counter : counterReducer
     }
 })
